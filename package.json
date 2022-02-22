@@ -1,0 +1,46 @@
+{
+  "name": "Gulp_FSL",
+  "version": "1.0.0",
+  "description": "images, fonts, js, scss, ftp",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build --build",
+    "deploy": "gulp deployFTP --build"
+  },
+  "author": "kartmax",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-fonter-unx": "^0.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-svg-sprites": "^4.1.2",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-version-number": "^0.2.4",
+    "sass": "^1.49.0",
+    "vinyl-ftp": "^0.6.1",
+    "webpack": "^5.67.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "swiper": "^8.0.6",
+    "wowjs": "^1.1.3"
+  }
+}

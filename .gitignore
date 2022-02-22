@@ -1,0 +1,19 @@
+/node_modules/
+/.git/
+/**/*.psd
+/**/Thumbs.db
+/**/*.DS_Store
+
+app/images/sprite_svg/svg/symbols.svg
+app/images/sprite_svg/symbols.html
+gulp/version.json
+package-lock.json
+
+#/dist/
+
+# Arhivs
+/**/*.rar
+/**/*.zip
+
+# PhpStorm
+/.idea/

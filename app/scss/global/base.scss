@@ -1,0 +1,56 @@
+html {
+   height: 100%;
+}
+
+body {
+	// @extend .max-width;
+	min-width: #{$min-width}px;
+   height: 100%;
+	font-family: $default-font;
+   @include response-val('font-size', 16, 14, $type-responsive-val);
+	position: relative;
+	color: $text-color;
+	line-height: $line-height;
+	overflow-x: hidden;
+   background-color: $main-color;
+
+	// Fix text zoom on Mobile Devices
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+.max-width {
+	max-width: #{$max-width}px;
+	width: 100%;
+	margin: 0 auto;
+	// padding-left: 15px;
+	// padding-right: 15px;
+
+	@media only screen and (min-width : 768px){
+		// padding-left: 30px;
+		// padding-right: 30px;
+	}
+}
+
+.clearfix {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+body, address, blockquote, center, section, main, header, footer, div, fieldset, form, input, textarea,
+h1, h2, h3, h4, h5, h6, hr, menu, ol, ul, li, p, span, a, pre, table {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}

@@ -1,0 +1,23 @@
+// global
+@import "global/reset";
+@import "global/fonts";
+@import "global/vars";
+@import "global/mixins";
+@import "global/libs";
+@import "global/base";
+// @import "global/form-base";
+
+// @import "global/media";
+// @import "global/animations";
+
+// templates
+// @import "templates/header";
+// @import "templates/footer";
+
+// modules
+@import "modules/preloader";
+// @import "modules/tabs";
+// @import "modules/btn-scrolltop";
+@import "modules/slider_main_bg";
+@import "modules/description";
+
